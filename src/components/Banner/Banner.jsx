@@ -16,7 +16,7 @@ const Banner = () => {
                         <button className='absolute top-1/2 translate-y-[-50%] right-[480px] font-secondary text-lg font-medium py-[15px] px-7 bg-secondary rounded-[6px] text-[#2C2643]'>Try for free</button>
                     </div>
                     <div className='mt-[98px]'>
-                        <img src={banner} alt="" />
+                        <img src={banner} alt="#banner.png" />
                     </div>
                 </div>
             </Container>
