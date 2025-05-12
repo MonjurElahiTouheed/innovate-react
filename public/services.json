@@ -1,0 +1,22 @@
+[
+    {
+        "image": "../src/assets/cardIcon1.png",
+        "title": "Plan Product Roadmap",
+        "descripton": "A product roadmap is a shared source of truth that outlines the vision, direction, priorities"
+    },
+    {
+        "image": "../src/assets/cardIcon2.png",
+        "title": "Assign Any Work",
+        "descripton": "Work assignment or job assignment is allocating work to work centers or appropriate "
+    },
+    {
+        "image": "../src/assets/cardIcon3.png",
+        "title": "Monitor Work Progress",
+        "descripton": "Monitor Work ProgressKeeping records and monitoring activities helps people see progress "
+    },
+    {
+        "image": "../src/assets/cardIcon4.png",
+        "title": "Pertect Intergration",
+        "descripton": "App integration, in a general sense, is the process of resources or capabilities from one application "
+    }
+]
