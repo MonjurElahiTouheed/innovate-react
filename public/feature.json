@@ -1,0 +1,17 @@
+[
+    {
+        "image": "../src/assets/icon4.png",
+        "title": "Fast and Easy to use",
+        "description": "Easily to convert API with just a few clicks"
+    },
+    {
+        "image": "../src/assets/icon5.png",
+        "title": "Safely Security",
+        "description": "All customer data is encrypted"
+    },
+    {
+        "image": "../src/assets/icon6.png",
+        "title": "Get Organized",
+        "description": "From lists to boards, organize work your way. "
+    }
+]

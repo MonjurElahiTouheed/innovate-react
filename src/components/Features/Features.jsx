@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Container from '../Layout/Container';
 import Flex from '../Layout/Flex';
 import featureShape from '../../assets/featureShape.png'
@@ -12,11 +12,18 @@ import avatar from '../../assets/avaatar.png'
 import cardIcon from '../../assets/Frame 76.png'
 import chart from '../../assets/chart.png'
 import check from '../../assets/tikmark.png'
+import FeatureCard from '../FeatureCard/FeatureCard';
 const Features = () => {
+    const [datas, setDatas] = useState([]);
+    useEffect(() => {
+        fetch('feature.json')
+            .then(res => res.json())
+            .then(data => setDatas(data))
+    }, [])
     return (
-        <div>
+        <div className='mt-[164px]'>
             <Container>
-                <Flex>
+                <Flex className="justify-between flex-end">
                     <div className='relative'>
                         <div className="w-[447px] h-[701px] bg-white shadow-[0_38.77px_51.69px_rgba(204,204,204,0.25)] absolute rounded-[7px]">
                             <div className='bg-[#2290F5] w-[447px] h-[20px] absolute rounded-t-[7px]'></div>
@@ -116,19 +123,27 @@ const Features = () => {
                             {/* project char */}
                             <div className='absolute top-[108px] right-[-195px] py-[21.4px] px-[25.68px] rounded-md bg-white shadow-[0_8.56px_42.8px_-2.14px_rgba(6,12,59,0.08)]'>
                                 <h4 className='font-inter font-semibold text-xl text-[#323338]'>Total Project Data</h4>
-                                <img src={chart} alt=""/>
+                                <img src={chart} alt="" />
                             </div>
                             {/* notify card */}
                             <Flex className='absolute top-[358px] right-[-195px] py-[30px] px-[23.68px] rounded-md bg-white shadow-[0_8.56px_42.8px_-2.14px_rgba(6,12,59,0.08)] flex-col items-center'>
-                                <img src={check} alt=""/>
+                                <img src={check} alt="" />
                                 <p className='mt-[22.12px] w-[232px] text-center text-xl font-inter text-[#323338]'>Your analytics research project is complete</p>
                                 <button className='mt-4 text-center text-xl font-medium font-inter text-[#323338] bg-[#43E7DF] rounded-[6px] shadow-[0_34.93px_46.57px_rgba(204,204,204,0.25)] px-5 py-[13px]'>Project Notify</button>
                             </Flex>
                         </div>
                         <img className='ml-[-68px] mt-[50px] top-[50px] left-[-50px] -z-10' src={featureShape} alt="" />
                     </div>
-                    <div>
-                        <h2 className=''></h2>
+                    <div className='w-[553px]'>
+                        <h2 className='font-primary text-[46px] text-title font-bold tracking-[-1px]'>We provide features for your Business</h2>
+                        <Flex className='flex-wrap gap-x-24 gap-y-10 mt-16'>
+                            {
+                                datas.map(data => <FeatureCard data={data}></FeatureCard>)
+                            }
+                            <Flex className="flex-col justify-end">
+                            <button className='bg-primary font-secondary font-medium text-lg text-white py-5 px-12 rounded-md mb-[10px]'>Get Started</button>
+                            </Flex>
+                        </Flex>
                     </div>
                 </Flex>
             </Container>
