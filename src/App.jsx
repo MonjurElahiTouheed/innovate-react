@@ -7,6 +7,7 @@ import Services from "./components/Services/Services"
 import Facts from "./components/Facts/Facts"
 import CTA from "./components/CTA/CTA"
 import Footer from "./components/Footer/Footer"
+import Pricing from "./components/Pricing/Pricing"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Integration></Integration>
       <Services></Services>
       <Facts></Facts>
+      <Pricing></Pricing>
       <Footer></Footer>
     </>
   )
