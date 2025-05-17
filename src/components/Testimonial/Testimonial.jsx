@@ -4,15 +4,38 @@ import { FaStar } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 const Testimonial = () => {
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+
+            <FaChevronRight color="#3639A4" className={className}
+                style={{ ...style, display: "block", width: '34px', height: '34px', right: '-53px', top: '53%', transform: 'translateY(0%)' }}
+                onClick={onClick} />
+
+        );
+    }
+
+    function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <FaChevronLeft color="#3639A4" className={className}
+                style={{ ...style, display: "block", width: '34px', height: '34px', left: '-53px', top: '53%', transform: 'translateY(0%)' }}
+                onClick={onClick} />
+        );
+    }
+
     var settings = {
         dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        arrows: true
     };
     return (
         <section className="py-[200px] bg-[#F4FAFA] mt-[160px]">
@@ -47,26 +70,8 @@ const Testimonial = () => {
                             </div>
                         </Flex>
                     </div>
-                    {/* slider content starts */}
-                    {/* <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] shadow-[10px_10px_130px_-2px_rgba(7,85,80,0.07)] relative mt-20">
-                        <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
-                        <Flex className='mt-9'>
-                            <div>
-                                <h5 className="font-primary font-bold text-2xl text-[#30344E]">Robert Fox</h5>
-                                <p className="font-secondary text-base text-[#30344E] mt-1.5">Digital Marketer</p>
-                            </div>
-                            <Flex className='justify-between'>
-                                <FaStar color="#FDB400" size={19} />
-                                <FaStar color="#FDB400" size={19} />
-                                <FaStar color="#FDB400" size={19} />
-                                <FaStar color="#FDB400" size={19} />
-                            </Flex>
-                        </Flex>
-                        <div className="w-[124px] h-[124px] rounded-full bg-[#C4C4C4] outline-[10px] outline-[#F7F7FC] absolute -top-20 left-9"></div>
-                    </div> */}
-                    {/* slider content ends */}
-                   
-                     <Slider {...settings} className="w-[687px]">
+
+                    <Slider {...settings} className="w-[687px]">
                         <div>
                             {/* slider content starts */}
                             <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] relative mt-20">
