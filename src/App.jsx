@@ -8,6 +8,7 @@ import Facts from "./components/Facts/Facts"
 import CTA from "./components/CTA/CTA"
 import Footer from "./components/Footer/Footer"
 import Pricing from "./components/Pricing/Pricing"
+import Testimonial from "./components/Testimonial/Testimonial"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Services></Services>
       <Facts></Facts>
       <Pricing></Pricing>
+      <Testimonial></Testimonial>
       <Footer></Footer>
     </>
   )

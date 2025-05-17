@@ -6,7 +6,7 @@ import sendPlane from '../../assets/sendPlane.png';
 import CTA from '../CTA/CTA';
 const Footer = () => {
     return (
-        <footer className='mt-[309px] bg-[#F7F7FC] relative'>
+        <footer className='mt-[315px] bg-[#F7F7FC] relative'>
             <CTA className='absolute bottom-[509px] left-[50%] transform translate-x-[-50%] w-[1410px]'></CTA>
             <Container>
                 <Flex className='pt-[291px] justify-between'>
