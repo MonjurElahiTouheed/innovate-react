@@ -23,8 +23,8 @@ const Features = () => {
         <div className='mt-[164px]'>
             <Container>
                 <Flex className="flex-col md:flex-row justify-between flex-end gap-y-96">
-                    <div className='relative w-[70%] md:w-auto mx-auto md:mx-0'>
-                        <div className="px-4 md:px-0 w-full md:w-[447px] h-[701px] bg-white shadow-[0_38.77px_51.69px_rgba(204,204,204,0.25)] absolute rounded-[7px]">
+                    <div className='relative w-[80%] md:w-auto mx-auto md:mx-0'>
+                        <div className="px-4 md:px-0 w-full md:w-[447px] h-[1220px] md:h-[701px] bg-white shadow-[0_38.77px_51.69px_rgba(204,204,204,0.25)] absolute rounded-[7px]">
                             <div className='bg-[#2290F5] w-[100%] md:w-[447px] h-[20px] absolute rounded-t-[7px]'></div>
                             {/* subscribe box */}
                             <div className='py-[18px] px-[22px] absolute top-[48px] md:left-[-76px] rounded-md bg-white shadow-[0_7.36px_36.8px_-1.84px_rgba(6,12,59,0.08)]'>
@@ -34,7 +34,7 @@ const Features = () => {
                                         <h3 className='font-poppins font-bold text-2xl md:text-[32px] text-cardHeading mt-[22px]'>2010+</h3>
                                         <Flex className='gap-[6px] mt-[6px]'>
                                             <img className='w-[14.72px] h-[14.72px]' src={arrow} alt="" />
-                                            <p className='text-[#FF7364] font-primary text-sm md:text-[13px] w-[98px] md:w-auto'>32% this month</p>
+                                            <p className='text-[#FF7364] font-primary text-sm md:text-[13px] w-[112px] md:w-auto'>32% this month</p>
                                         </Flex>
                                     </div>
                                     <div>
@@ -133,18 +133,18 @@ const Features = () => {
                             </div>
                             {/* pending card */}
                             {/* project char */}
-                            <div className='absolute top-[108px] right-[-217px] py-[21.4px] px-[25.68px] rounded-md bg-white shadow-[0_8.56px_42.8px_-2.14px_rgba(6,12,59,0.08)]'>
+                            <div className='absolute top-[690px] md:top-[108px] right-[36px] md:right-[-217px] py-[21.4px] px-[25.68px] rounded-md bg-white shadow-[0_8.56px_42.8px_-2.14px_rgba(6,12,59,0.08)]'>
                                 <h4 className='font-inter font-semibold text-xl text-[#323338] w-'>Total Project Data</h4>
-                                <img className='mt-3' src={chart} alt="" />
+                                <img className='mt-3 w-[200px]' src={chart} alt="" />
                             </div>
                             {/* notify card */}
-                            <Flex className='absolute top-[357px] right-[-217px] py-[30px] px-[23.68px] rounded-md bg-white shadow-[0_8.56px_42.8px_-2.14px_rgba(6,12,59,0.08)] flex-col items-center'>
+                            <Flex className='absolute top-[940px] md:top-[357px] right-[36px] md:right-[-217px] py-[30px] px-[23.68px] rounded-md bg-white shadow-[0_8.56px_42.8px_-2.14px_rgba(6,12,59,0.08)] flex-col items-center'>
                                 <img src={check} alt="" />
-                                <p className='mt-[22.12px] w-[232px] text-center text-xl font-inter text-[#323338]'>Your analytics research project is complete</p>
-                                <button className='mt-4 text-center text-xl font-medium font-inter text-[#323338] bg-[#43E7DF] rounded-[6px] shadow-[0_34.93px_46.57px_rgba(204,204,204,0.25)] px-5 py-[13px]'>Project Notify</button>
+                                <p className='mt-[22.12px] w-[200px] md:w-[232px] text-center text-[17px] md:text-xl font-inter text-[#323338]'>Your analytics research project is complete</p>
+                                <button className='mt-4 text-center text-base md:text-xl font-medium font-inter text-[#323338] bg-[#43E7DF] rounded-[6px] shadow-[0_34.93px_46.57px_rgba(204,204,204,0.25)] px-5 py-[13px]'>Project Notify</button>
                             </Flex>
                         </div>
-                        <img className='ml-[-68px] mt-[50px] top-[50px] left-[-50px] -z-10' src={featureShape} alt="" />
+                        <img className='ml-[-30px] mt-[50px] -z-10' src={featureShape} alt="" />
                     </div>
                     <div className='md:w-[553px]'>
                         <h2 className='font-primary text-[46px] text-title font-bold tracking-[-1px]'>We provide features for your Business</h2>
