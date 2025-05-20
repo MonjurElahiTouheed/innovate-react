@@ -13,7 +13,7 @@ const Content = () => {
     return (
         <div>
             <Container>
-                <Flex className='justify-between px-[55px]'>
+                <Flex className='flex-col md:flex-row justify-between px-[55px]'>
                     <h2 className='w-[540px] font-bold font-primary text-[46px] text-title '>How simple is it to use our platform?</h2>
                     <p className='w-[503px] text-lg font-secondary text-description'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
                 </Flex>
