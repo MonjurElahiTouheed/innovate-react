@@ -12,7 +12,7 @@ const Banner = () => {
                     <p className='md:w-[467px] mx-auto font-secondary text-base md:text-lg leading-[32px] mt-5 text-white'>The world's first project management platform that connects everything</p>
                     <div className='mt-8 relative flex flex-col md:block'>
                         <input className='md:w-[480px] py-5 border pl-6 bg-white outline-0 placeholder:text-gray-400 text-gray-400 rounded-[6px]' type="text" placeholder='Your business email'/>
-                        <button className='md:absolute mt-4 top-1/2 md:translate-y-[-50%] md:right-[480px] font-secondary text-lg font-medium py-[15px] px-7 bg-secondary rounded-[6px] text-[#2C2643]'>Try for free</button>
+                        <button className='md:absolute mt-4 md:mt-0 md:top-1/2 md:translate-y-[-50%] md:right-[480px] font-secondary text-lg font-medium py-[15px] px-7 bg-secondary rounded-[6px] text-[#2C2643]'>Try for free</button>
                     </div>
                     <div className='mt-[98px]'>
                         <img src={banner} alt="#banner.png" />
