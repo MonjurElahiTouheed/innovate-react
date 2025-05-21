@@ -22,10 +22,10 @@ const Features = () => {
     return (
         <div className='mt-[164px]'>
             <Container>
-                <Flex className="flex-col md:flex-row justify-between flex-end gap-y-96">
+                <Flex className="flex-col md:flex-row justify-between flex-end gap-y-[960px] md:gap-y-0">
                     <div className='relative w-[80%] md:w-auto mx-auto md:mx-0'>
                         <div className="px-4 md:px-0 w-full md:w-[447px] h-[1220px] md:h-[701px] bg-white shadow-[0_38.77px_51.69px_rgba(204,204,204,0.25)] absolute rounded-[7px]">
-                            <div className='bg-[#2290F5] w-[100%] md:w-[447px] h-[20px] absolute rounded-t-[7px]'></div>
+                            <div className='bg-[#2290F5] w-[100%] ml-[-16px] md:w-[447px] h-[20px] absolute rounded-t-[7px]'></div>
                             {/* subscribe box */}
                             <div className='py-[18px] px-[22px] absolute top-[48px] md:left-[-76px] rounded-md bg-white shadow-[0_7.36px_36.8px_-1.84px_rgba(6,12,59,0.08)]'>
                                 <p className='text-cardHeading font-inter text-[15px] font-semibold top-10'>New Subscribers</p>
@@ -146,9 +146,9 @@ const Features = () => {
                         </div>
                         <img className='ml-[-30px] mt-[50px] -z-10' src={featureShape} alt="" />
                     </div>
-                    <div className='md:w-[553px]'>
-                        <h2 className='font-primary text-[46px] text-title font-bold tracking-[-1px]'>We provide features for your Business</h2>
-                        <Flex className='flex-wrap gap-x-24 gap-y-10 mt-16'>
+                    <div className='w-[80%] md:w-[553px] mx-auto'>
+                        <h2 className='font-primary text-[46px] text-title font-bold tracking-[-1px] text-center md:text-left'>We provide features for your Business</h2>
+                        <Flex className='flex-wrap justify-center gap-x-24 gap-y-10 mt-16'>
                             {
                                 datas.map(data => <FeatureCard data={data}></FeatureCard>)
                             }

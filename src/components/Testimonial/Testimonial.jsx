@@ -40,7 +40,7 @@ const Testimonial = () => {
     return (
         <section className="py-[200px] bg-[#F4FAFA] mt-[160px]">
             <Container>
-                <Flex className='items-center justify-between'>
+                <Flex className='flex-col md:flex-row items-center justify-between'>
                     <div>
                         <h2 className="font-primary text-[46px] text-title font-bold w-[594px]">What they are talking
                             about us?</h2>

@@ -6,7 +6,7 @@ const Facts = () => {
         <section className="mt-[140px]">
             <Container>
                 <div className="bg-[url(assets/factsBG.png)] pt-11">
-                    <Flex className='justify-around items-center'>
+                    <Flex className='flex-col md:flex-row justify-around items-center'>
                         <div className="">
                             <img src={illutration} alt="" />
                         </div>

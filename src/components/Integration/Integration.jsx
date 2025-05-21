@@ -12,30 +12,34 @@ const Integration = () => {
     return (
         <div className='bg-[#F4FAFA] pt-[124px] pb-[120px] mt-[195px]'>
             <Container>
-                <Flex className="justify-between">
-                    <div className='relative'>
+                <Flex className="flex-col md:flex-row justify-between items-center md:items-start gap-y-20">
+                    <div className='relative text-center md:text-left px-4 md:px-0'>
                         <h5 className='text-[#FF7364] font-secondary text-xl font-medium'>Integrations</h5>
-                        <h2 className='mt-1 font-primary font-bold text-[46px] text-title w-[587px]'>Easily integrate with your favorite apps</h2>
-                        <p className='mt-5 font-secondary text-lg text-description w-[533px]'>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.</p>
+                        <h2 className='mt-3 md:mt-1 font-primary font-bold text-4xl leading-[52px] md:leading-[58px] md:text-[46px] text-title md:w-[587px]'>Easily integrate with your favorite apps</h2>
+                        <p className='mt-5 font-secondary text-lg text-description md:w-[533px]'>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.</p>
                         <button className='mt-10 bg-primary font-secondary font-medium text-lg text-white py-5 px-12 rounded-md'>Get Started</button>
                         <img className='absolute left-[-160px]' src={intergrationShape} alt="" />
                     </div>
-                    <div className='w-[46%]'>
-                        <Flex className='justify-between'>
+                    
+                        <Flex className='flex-wrap md:w-[697px] justify-center px-5 md:px-0 md:justify-between gap-x-[30px] gap-y-[33px]'>
                             <img className='px-[65px] py-[45px] rounded-xl bg-white' src={logo1} alt="" />
                             <img className='px-[65px] py-[45px] rounded-xl bg-white' src={logo2} alt="" />
-                        </Flex>
-                        <Flex className='justify-between mt-[35px]'>
+                        
                             <img className='px-[30px] py-[45px] rounded-xl bg-white' src={logo3} alt="" />
-                            <img className='px-[60px] py-[50px] rounded-xl bg-white' src={logo4} alt="" />
+                            <img className='px-[79px] py-[50px] rounded-xl bg-white' src={logo4} alt="" />
+
                             <img className='px-[37px] py-[33px] rounded-xl bg-white' src={logo5} alt="" />
-                        </Flex>
-                        <Flex className='justify-between mt-[33px]'>
-                        <img className='px-[17px] py-[60px] rounded-xl bg-white' src={logo6} alt="" />
+
+
+                        
+                        <img className='px-[17px] py-[47px] rounded-xl bg-white' src={logo6} alt="" />
+                            
                             <img className='px-[37px] py-[33px] rounded-xl bg-white' src={logo5} alt="" />
+
+                            
                             <img className='pl-[22px] pr-[8px] py-[54px] rounded-xl bg-white' src={logo7} alt="" />
                         </Flex>
-                    </div>
+                   
                 </Flex>
             </Container>
         </div>

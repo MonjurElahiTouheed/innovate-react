@@ -6,10 +6,10 @@ import pricingCheck from '../../assets/pricingCheck.png'
 const Pricing = () => {
     return (
         <section className="mt-[140px]">
-            <h2 className="w-[624px] mx-auto font-bold font-primary text-[46px] text-title text-center">Pricing Designed To Fit Your Business</h2>
+            <h2 className="md:w-[624px] mx-auto font-bold font-primary text-3xl leading-11 md:text-[46px] text-title text-center">Pricing Designed To Fit Your Business</h2>
             <h5 className="text-center font-primary text-primary text-2xl font-bold mt-[39px]">Monthly</h5>
             <Container>
-                <Flex className='mt-[77px] justify-between'>
+                <Flex className='flex-col md:flex-row mt-[77px] justify-between px-7 md:px-0 gap-y-12 md:gap-y-0'>
                     <div className="px-12 py-10 border-1 border-[#DCE7FE] rounded-[20px] group hover:bg-primary ease-linear duration-200">
                         <div className="flex justify-center">
                             <div className="w-[90px] h-[90px] rounded-full bg-[#E8F2FA] flex items-center justify-center group-hover:bg-white ease-linear duration-200">
@@ -44,7 +44,7 @@ const Pricing = () => {
                                 </div> Assignees & Due Dates</li>
                             </ul>
                         </div>
-                        <button className="font-secondary text-white font-medium text-lg px-[104px] py-5 bg-primary rounded-md mt-10 group-hover:bg-secondary group-hover:text-title">Purchase Now</button>
+                        <button className="font-secondary text-white font-medium text-lg px-[59px] md:px-[104px] py-4 md:py-5 bg-primary rounded-md mt-10 group-hover:bg-secondary group-hover:text-title">Purchase Now</button>
                     </div>
                     <div className="px-12 py-10 border-1 border-[#DCE7FE] rounded-[20px] group hover:bg-primary ease-linear duration-200">
                         <div className="flex justify-center">
@@ -86,7 +86,7 @@ const Pricing = () => {
                                 </div> Milestones Manage</li>
                             </ul>
                         </div>
-                        <button className="font-secondary text-white font-medium text-lg px-[104px] py-5 bg-primary rounded-md mt-10 group-hover:bg-secondary group-hover:text-title">Purchase Now</button>
+                        <button className="font-secondary text-white font-medium text-lg px-[59px] md:px-[104px] py-4 md:py-5 bg-primary rounded-md mt-10 group-hover:bg-secondary group-hover:text-title">Purchase Now</button>
                     </div>
                     <div className="px-12 py-10 border-1 border-[#DCE7FE] rounded-[20px] group hover:bg-primary ease-linear duration-200">
                         <div className="flex justify-center">
@@ -139,7 +139,7 @@ const Pricing = () => {
                                 </div> APriority support</li>
                             </ul>
                         </div>
-                        <button className="font-secondary text-white font-medium text-lg px-[104px] py-5 bg-primary rounded-md mt-10 group-hover:bg-secondary group-hover:text-title">Purchase Now</button>
+                        <button className="font-secondary text-white font-medium text-lg px-[59px] md:px-[104px] py-4 md:py-5 bg-primary rounded-md mt-10 group-hover:bg-secondary group-hover:text-title">Purchase Now</button>
                     </div>
                 </Flex>
             </Container>

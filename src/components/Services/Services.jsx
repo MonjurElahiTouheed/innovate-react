@@ -17,7 +17,7 @@ const Services = () => {
                     <p className='text-center text-[#FF7364] font-secondary font-medium text-xl'>Our Services</p>
                     <h2 className='text-center mt-1 font-primary font-bold text-[46px] text-title'>How It Works</h2>
                 </div>
-                <Flex className='justify-between mt-[80px]'>
+                <Flex className='flex-col md:flex-row justify-between mt-[80px] px-7 md:px-0 gap-y-8 md:gap-y-0'>
                     {
                         datas.map(data => <ServiceCard data={data}></ServiceCard>)
                     }

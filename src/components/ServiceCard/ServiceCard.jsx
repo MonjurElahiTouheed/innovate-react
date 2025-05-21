@@ -2,7 +2,7 @@ import rightArrowCard from '../../assets/rightArrowCard.png';
 const ServiceCard = ({data}) => {
     return (
         <div className='group duration-[1000ms] ease-linear'>
-            <div className="p-9 border-1 border-[#DCE7FE] shadow-[0_10px_100px_rgba(12,14,104,0.15)] w-[330px] rounded-[20px] group-hover:bg-primary duration-300 ease-linear">
+            <div className="p-9 border-1 border-[#DCE7FE] shadow-[0_10px_100px_rgba(12,14,104,0.15)] md:w-[330px] rounded-[20px] group-hover:bg-primary duration-300 ease-linear">
             <img src={data.image} alt="" />
             <h4 className="font-primary text-[22px] font-bold text-title mt-[26px] group-hover:text-white">{data.title}</h4>
             <p className="font-primary text-base tracking-[-0.25%] text-description mt-2 group-hover:text-white">{data.descripton}</p>
