@@ -35,19 +35,28 @@ const Testimonial = () => {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        arrows: true
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000
+                }
+            }
+        ]
     };
     return (
         <section className="py-[200px] bg-[#F4FAFA] mt-[160px]">
             <Container>
-                <Flex className='flex-col md:flex-row items-center justify-between'>
-                    <div>
-                        <h2 className="font-primary text-[46px] text-title font-bold w-[594px]">What they are talking
+                <Flex className='flex-col md:flex-row items-center justify-between gap-y-30 md:gap-y-0'>
+                    <div className="text-center md:text-left">
+                        <h2 className="font-primary text-[46px] text-title font-bold md:w-[594px]">What they are talking
                             about us?</h2>
-                        <p className="font-secondary text-lg text-description w-[503px] mt-5">testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+                        <p className="font-secondary text-lg text-description md:w-[503px] mt-5">testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
                         <button className="mt-10 bg-primary rounded-md font-secondary font-medium text-lg text-white px-12 py-5">Get Started</button>
 
-                        <Flex className='mt-20 gap-[30.26px]'>
+                        <Flex className='mt-20 justify-around md:justify-normal md:gap-[30.26px]'>
                             <div className="flex">
                                 <div className="w-[58.31px] h-[58.72px] rounded-full bg-[#C4C4C4] border-2 border-white"></div>
                                 <div className="-ml-5 w-[58.31px] h-[58.72px] rounded-full bg-[#C4C4C4] border-2 border-white"></div>
@@ -71,12 +80,12 @@ const Testimonial = () => {
                         </Flex>
                     </div>
 
-                    <Slider {...settings} className="w-[687px]">
+                    <Slider {...settings} className="w-[88%] md:w-[687px]">
                         <div>
                             {/* slider content starts */}
                             <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] relative mt-20">
-                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
-                                <Flex className='mt-9'>
+                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] md:w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                <Flex className='justify-between items-end mt-9'>
                                     <div>
                                         <h5 className="font-primary font-bold text-2xl text-[#30344E]">Robert Fox</h5>
                                         <p className="font-secondary text-base text-[#30344E] mt-1.5">Digital Marketer</p>
@@ -95,8 +104,8 @@ const Testimonial = () => {
                         <div>
                             {/* slider content starts */}
                             <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] relative mt-20">
-                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
-                                <Flex className='mt-9'>
+                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] md:w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                <Flex className='justify-between items-end mt-9'>
                                     <div>
                                         <h5 className="font-primary font-bold text-2xl text-[#30344E]">Robert Fox</h5>
                                         <p className="font-secondary text-base text-[#30344E] mt-1.5">Digital Marketer</p>
@@ -115,8 +124,8 @@ const Testimonial = () => {
                         <div>
                             {/* slider content starts */}
                             <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] relative mt-20">
-                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
-                                <Flex className='mt-9'>
+                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] md:w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                <Flex className='justify-between items-end mt-9'>
                                     <div>
                                         <h5 className="font-primary font-bold text-2xl text-[#30344E]">Robert Fox</h5>
                                         <p className="font-secondary text-base text-[#30344E] mt-1.5">Digital Marketer</p>
@@ -135,8 +144,8 @@ const Testimonial = () => {
                         <div>
                             {/* slider content starts */}
                             <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] relative mt-20">
-                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
-                                <Flex className='mt-9'>
+                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] md:w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                <Flex className='justify-between items-end mt-9'>
                                     <div>
                                         <h5 className="font-primary font-bold text-2xl text-[#30344E]">Robert Fox</h5>
                                         <p className="font-secondary text-base text-[#30344E] mt-1.5">Digital Marketer</p>
@@ -155,8 +164,8 @@ const Testimonial = () => {
                         <div>
                             {/* slider content starts */}
                             <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] relative mt-20">
-                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
-                                <Flex className='mt-9'>
+                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] md:w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                <Flex className='justify-between items-end mt-9'>
                                     <div>
                                         <h5 className="font-primary font-bold text-2xl text-[#30344E]">Robert Fox</h5>
                                         <p className="font-secondary text-base text-[#30344E] mt-1.5">Digital Marketer</p>
@@ -175,8 +184,8 @@ const Testimonial = () => {
                         <div>
                             {/* slider content starts */}
                             <div className="px-12 pt-16 pb-[50px] bg-white rounded-[20px] relative mt-20">
-                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
-                                <Flex className='mt-9'>
+                                <p className="font-secondary text-[22px] text-[#6C6E81] leading-[44px] md:w-[567px]">“Wow. Amazing company amazing Expert Manager. They know how to get things done when it comes to online trading. </p>
+                                <Flex className='justify-between items-end mt-9'>
                                     <div>
                                         <h5 className="font-primary font-bold text-2xl text-[#30344E]">Robert Fox</h5>
                                         <p className="font-secondary text-base text-[#30344E] mt-1.5">Digital Marketer</p>
