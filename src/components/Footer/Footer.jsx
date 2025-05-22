@@ -46,8 +46,8 @@ const Footer = () => {
                         <ul>
                             <li className='font-secondary font-semibold md:font-medium text-lg text-title'><a href="">Get Latest Updates</a></li>
                             <li className='font-secondary text-base text-description mt-5 w-[285px]'>Subscribe to our newsletter and get many interesting things every week</li>
-                            <li className='relative font-secondary text-base text-description mt-8'><input type="text" className='pl-[18px] pt-4 pb-3 border-1 border-[#D2D2D2] placeholder:text-[#A1A2A3] placeholder:font-poppins placeholder:text-xs rounded-[5px] w-[269px]' placeholder='Your Email Address' />
-                                <div className="absolute -translate-y-1/2 top-1/2 right-6 w-9 h-9 rounded-md bg-primary flex justify-center items-center">
+                            <li className='relative font-secondary text-base text-description mt-8'><input type="text" className='pl-[18px] pt-4 pb-3 border-1 border-[#D2D2D2] placeholder:text-[#A1A2A3] placeholder:font-poppins placeholder:text-sm md:placeholder:text-xs rounded-[5px] w-[269px]' placeholder='Your Email Address' />
+                                <div className="absolute -translate-y-1/2 top-1/2 right-4 md:right-6 w-9 h-9 rounded-md bg-primary flex justify-center items-center">
                                     <img src={sendPlane} alt="" />
                                 </div>
                             </li>
