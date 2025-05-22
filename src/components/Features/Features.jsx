@@ -147,13 +147,13 @@ const Features = () => {
                         <img className='ml-[-30px] mt-[50px] -z-10' src={featureShape} alt="" />
                     </div>
                     <div className='w-[80%] md:w-[553px] mx-auto'>
-                        <h2 className='font-primary text-[46px] text-title font-bold tracking-[-1px] text-center md:text-left'>We provide features for your Business</h2>
+                        <h2 className='font-primary text-[34px] md:text-[46px] text-title font-bold tracking-[-1px] text-center md:text-left'>We provide features for your Business</h2>
                         <Flex className='flex-wrap justify-center gap-x-24 gap-y-10 mt-16'>
                             {
                                 datas.map(data => <FeatureCard data={data}></FeatureCard>)
                             }
                             <Flex className="flex-col justify-end">
-                                <button className='bg-primary font-secondary font-medium text-base md:text-lg text-white py-3.5 md:py-5 px-12 rounded-md mb-[10px]'>Get Started</button>
+                                <button className='bg-primary font-secondary font-medium text-base md:text-lg text-white py-3.5 md:py-5 px-10 md:px-12 rounded-md mb-[10px]'>Get Started</button>
                             </Flex>
                         </Flex>
                     </div>
