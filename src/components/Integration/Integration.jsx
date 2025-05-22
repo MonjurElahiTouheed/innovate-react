@@ -17,7 +17,7 @@ const Integration = () => {
                         <h5 className='text-[#FF7364] font-secondary text-xl font-medium'>Integrations</h5>
                         <h2 className='mt-3 md:mt-1 font-primary font-bold text-[33px] leading-[52px] md:leading-[58px] md:text-[46px] text-title md:w-[587px]'>Easily integrate with your favorite apps</h2>
                         <p className='mt-5 font-secondary text-[17px] md:text-lg text-description md:w-[533px]'>App integration, in a general sense, is the process of bringing resources or capabilities from one application to another. As the world of apps continues to evolve, app integration is becoming expected in many contexts.</p>
-                        <button className='mt-10 bg-primary font-secondary font-medium text-lg text-white py-5 px-12 rounded-md'>Get Started</button>
+                        <button className='mt-10 bg-primary font-secondary font-medium text-base md:text-lg text-white py-3.5 md:py-5 px-12 rounded-md'>Get Started</button>
                         <img className='absolute left-[-160px]' src={intergrationShape} alt="" />
                     </div>
                     

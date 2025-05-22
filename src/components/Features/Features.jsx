@@ -153,7 +153,7 @@ const Features = () => {
                                 datas.map(data => <FeatureCard data={data}></FeatureCard>)
                             }
                             <Flex className="flex-col justify-end">
-                                <button className='bg-primary font-secondary font-medium text-lg text-white py-5 px-12 rounded-md mb-[10px]'>Get Started</button>
+                                <button className='bg-primary font-secondary font-medium text-base md:text-lg text-white py-3.5 md:py-5 px-12 rounded-md mb-[10px]'>Get Started</button>
                             </Flex>
                         </Flex>
                     </div>
