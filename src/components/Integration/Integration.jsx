@@ -10,7 +10,7 @@ import logo6 from '../../assets/logo6.png';
 import logo7 from '../../assets/logo7.png';
 const Integration = () => {
     return (
-        <div className='bg-[#F4FAFA] pt-[124px] pb-[120px] mt-[195px]'>
+        <section className='bg-[#F4FAFA] pt-[90px] md:pt-[124px] pb-[83px] md:pb-[120px] mt-[195px]'>
             <Container>
                 <Flex className="flex-col md:flex-row justify-between items-center md:items-start gap-y-20">
                     <div className='relative text-center md:text-left px-4 md:px-0'>
@@ -42,7 +42,7 @@ const Integration = () => {
                    
                 </Flex>
             </Container>
-        </div>
+        </section>
     );
 };
 
