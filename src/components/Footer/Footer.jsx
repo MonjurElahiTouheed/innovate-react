@@ -6,10 +6,10 @@ import sendPlane from '../../assets/sendPlane.png';
 import CTA from '../CTA/CTA';
 const Footer = () => {
     return (
-        <footer className='md:mt-[315px] md:bg-[#F7F7FC] md:relative'>
+        <footer className='md:mt-[315px] bg-[#F7F7FC] md:relative'>
             <CTA className='md:absolute md:bottom-[509px] md:left-[50%] md:transform md:translate-x-[-50%] md:w-[1410px]'></CTA>
             <Container>
-                <Flex className='flex-col md:flex-row items-center md:items-start pt-[291px] justify-between'>
+                <Flex className='flex-col md:flex-row items-center md:items-start pt-28 md:pt-[291px] justify-between'>
                     <div className='w-[263px] flex flex-col items-center md:block'>
                         <img src={footerLogo} alt="" />
                         <p className='font-secondary text-description text-base w-[263px] mt-[26px] text-center md:text-left'>Build a modern and creative website with Innovate.</p>
