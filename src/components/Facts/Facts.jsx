@@ -3,7 +3,7 @@ import illutration from '../../assets/Illustration.png'
 import Container from "../Layout/Container";
 const Facts = () => {
     return (
-        <section className="mt-[140px]">
+        <section className="mt-32 md:mt-[140px]">
             <Container>
                 <div className="bg-[url(assets/factsBG.png)] bg-cover bg-no-repeat bg-center rounded-4xl pt-11 pb-11 md:pb-0 px-4 md:px-0 mx-7">
                     <Flex className='flex-col md:flex-row justify-around items-center'>
