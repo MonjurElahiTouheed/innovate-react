@@ -22,7 +22,7 @@ const Services = () => {
                         datas.map(data => <ServiceCard data={data}></ServiceCard>)
                     }
                 </Flex>
-                <div className="text-center mt-[70px] md:mt-[80px]">
+                <div className="text-center mt-[60px] md:mt-[80px]">
                     <button className="px-10 md:px-12 py-3 md:py-5 rounded-md border-1 border-[#3639A4] font-secondary font-medium text-lg">View More</button>
                 </div>
             </Container>

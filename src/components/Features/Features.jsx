@@ -20,14 +20,14 @@ const Features = () => {
             .then(data => setDatas(data))
     }, [])
     return (
-        <div className='mt-[164px]'>
+        <div className='mt-[110px] md:mt-[164px]'>
             <Container>
-                <Flex className="flex-col md:flex-row justify-between flex-end gap-y-[960px] md:gap-y-0">
+                <Flex className="flex-col md:flex-row justify-between flex-end gap-y-[970px] md:gap-y-0">
                     <div className='relative w-[80%] md:w-auto mx-auto md:mx-0'>
                         <div className="px-4 md:px-0 w-full md:w-[447px] h-[1220px] md:h-[701px] bg-white shadow-[0_38.77px_51.69px_rgba(204,204,204,0.25)] absolute rounded-[7px]">
                             <div className='bg-[#2290F5] w-[100%] ml-[-16px] md:w-[447px] h-[20px] absolute rounded-t-[7px]'></div>
                             {/* subscribe box */}
-                            <div className='py-[18px] px-[22px] absolute top-[48px] md:left-[-76px] rounded-md bg-white shadow-[0_7.36px_36.8px_-1.84px_rgba(6,12,59,0.08)]'>
+                            <div className='py-[18px] px-[22px] absolute top-[48px] left-3 md:left-[-76px] rounded-md bg-white shadow-[0_7.36px_36.8px_-1.84px_rgba(6,12,59,0.08)]'>
                                 <p className='text-cardHeading font-inter text-[15px] font-semibold top-10'>New Subscribers</p>
                                 <Flex className='justify-between items-center md:gap-x-[55px]'>
                                     <div>

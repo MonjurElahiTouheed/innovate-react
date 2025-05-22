@@ -5,9 +5,9 @@ import pricingCheck from '../../assets/pricingCheck.png'
 
 const Pricing = () => {
     return (
-        <section className="mt-[140px]">
+        <section className="mt-[100px] md:mt-[140px]">
             <h2 className="md:w-[624px] mx-auto font-bold font-primary text-3xl leading-[58px] md:text-[46px] text-title text-center">Pricing Designed To Fit Your Business</h2>
-            <h5 className="text-center font-primary text-primary text-[22px] md:text-2xl font-bold mt-[39px]">Monthly</h5>
+            <h5 className="text-center font-primary text-primary text-[21px] md:text-2xl font-bold mt-[39px]">Monthly</h5>
             <Container>
                 <Flex className='flex-col md:flex-row mt-[77px] justify-between px-7 md:px-0 gap-y-12 md:gap-y-0'>
                     <div className="px-12 py-10 border-1 border-[#DCE7FE] rounded-[20px] group hover:bg-primary ease-linear duration-200">
