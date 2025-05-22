@@ -49,12 +49,12 @@ const Testimonial = () => {
     return (
         <section className="py-[200px] bg-[#F4FAFA] mt-[160px]">
             <Container>
-                <Flex className='flex-col md:flex-row items-center justify-between gap-y-30 md:gap-y-0'>
-                    <div className="text-center md:text-left">
-                        <h2 className="font-primary text-[46px] text-title font-bold md:w-[594px]">What they are talking
+                <Flex className='flex-col md:flex-row items-center justify-between gap-y-28 md:gap-y-0'>
+                    <div className="text-center md:text-left px-5">
+                        <h2 className="font-primary text-[33px] md:text-[46px] text-title font-bold md:w-[594px] leading-12 md:leading-[58px]">What they are talking
                             about us?</h2>
-                        <p className="font-secondary text-lg text-description md:w-[503px] mt-5">testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
-                        <button className="mt-10 bg-primary rounded-md font-secondary font-medium text-lg text-white px-12 py-5">Get Started</button>
+                        <p className="font-secondary text-[17px] md:text-lg text-description md:w-[503px] mt-5">testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+                        <button className="mt-10 bg-primary rounded-md font-secondary font-medium text-base md:text-lg text-white px-10 md:px-12 py-3 md:py-5">Get Started</button>
 
                         <Flex className='mt-20 justify-around md:justify-normal md:gap-[30.26px]'>
                             <div className="flex">
