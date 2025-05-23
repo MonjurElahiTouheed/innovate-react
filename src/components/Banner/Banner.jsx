@@ -3,7 +3,7 @@ import banner_shape from '../../assets/banner_shape.png'
 import banner from '../../assets/banner.png'
 const Banner = () => {
     return (
-        <div className="pt-[195px] bg-size-[400%] md:bg-cover bg-center bg-no-repeat pb-[558.85px]" style={{
+        <div className="pt-[195px] bg-cover bg-center bg-no-repeat pb-[459px] md:pb-[558.85px]" style={{
             backgroundImage: `url(${banner_shape})`
         }}>
             <Container>
@@ -15,7 +15,7 @@ const Banner = () => {
                         <button className='md:absolute mt-4 md:mt-0 md:top-1/2 md:translate-y-[-50%] md:right-[480px] font-secondary text-lg font-medium py-[15px] px-7 bg-secondary rounded-[6px] text-[#2C2643]'>Try for free</button>
                     </div>
                     <div className='relative'>
-                        <img className='absolute top-[70px] md:top-[98px] left-[45%] md:left-[50%] -translate-x-1/2 w-full' src={banner} alt="#banner.png" />
+                        <img className='absolute top-[90px] md:top-[98px] left-[45%] md:left-[50%] -translate-x-1/2 w-full' src={banner} alt="#banner.png" />
                     </div>
                 </div>
             </Container>

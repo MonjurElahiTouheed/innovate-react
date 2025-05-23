@@ -47,7 +47,7 @@ const Testimonial = () => {
         ]
     };
     return (
-        <section className="py-28 md:py-[200px] bg-[#F4FAFA] mt-[160px]">
+        <section className="py-28 md:py-[200px] bg-[#F4FAFA] mt-[120px] md:mt-[160px]">
             <Container>
                 <Flex className='flex-col md:flex-row items-center justify-between gap-y-28 md:gap-y-0'>
                     <div className="text-center md:text-left px-5">

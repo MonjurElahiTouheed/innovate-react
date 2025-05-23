@@ -22,7 +22,7 @@ const Features = () => {
     return (
         <div className='mt-[110px] md:mt-[164px]'>
             <Container>
-                <Flex className="flex-col md:flex-row justify-between flex-end gap-y-[970px] md:gap-y-0">
+                <Flex className="flex-wrap justify-between gap-y-[970px] md:gap-y-0">
                     <div className='relative w-[80%] md:w-auto mx-auto md:mx-0'>
                         <div className="px-4 md:px-0 w-full md:w-[447px] h-[1220px] md:h-[701px] bg-white shadow-[0_38.77px_51.69px_rgba(204,204,204,0.25)] absolute rounded-[7px]">
                             <div className='bg-[#2290F5] w-[100%] ml-[-16px] md:w-[447px] h-[20px] absolute rounded-t-[7px]'></div>
@@ -146,11 +146,11 @@ const Features = () => {
                         </div>
                         <img className='ml-[-30px] mt-[50px] -z-10' src={featureShape} alt="" />
                     </div>
-                    <div className='w-[80%] md:w-[553px] mx-auto'>
+                    <div className='w-[80%] md:w-[553px] mx-auto md:mx-0'>
                         <h2 className='font-primary text-[34px] md:text-[46px] text-title font-bold tracking-[-1px] text-center md:text-left'>We provide features for your Business</h2>
-                        <Flex className='flex-wrap justify-center gap-x-24 gap-y-10 mt-16'>
+                        <Flex className='flex-wrap justify-center md:justify-between gap-x-24 gap-y-10 mt-16'>
                             {
-                                datas.map(data => <FeatureCard data={data}></FeatureCard>)
+                                datas.map((data, index) => <FeatureCard className={index ===1 ? 'w-[34%]': ''} data={data}></FeatureCard>)
                             }
                             <Flex className="flex-col justify-end">
                                 <button className='bg-primary font-secondary font-medium text-base md:text-lg text-white py-3.5 md:py-5 px-10 md:px-12 rounded-md mb-[10px]'>Get Started</button>
