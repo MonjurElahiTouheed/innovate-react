@@ -148,9 +148,9 @@ const Features = () => {
                     </div>
                     <div className='w-[80%] md:w-[553px] mx-auto md:mx-0'>
                         <h2 className='font-primary text-[34px] md:text-[46px] text-title font-bold tracking-[-1px] text-center md:text-left'>We provide features for your Business</h2>
-                        <Flex className='flex-wrap justify-center md:justify-between gap-x-24 gap-y-10 mt-16'>
+                        <Flex className='flex-wrap justify-center md:justify-between gap-y-10 mt-16'>
                             {
-                                datas.map((data, index) => <FeatureCard className={index ===1 ? 'w-[34%]': ''} data={data}></FeatureCard>)
+                                datas.map((data, index) => <FeatureCard className={index ===1 ? 'w-[34%]' : ''} data={data}></FeatureCard>)
                             }
                             <Flex className="flex-col justify-end">
                                 <button className='bg-primary font-secondary font-medium text-base md:text-lg text-white py-3.5 md:py-5 px-10 md:px-12 rounded-md mb-[10px]'>Get Started</button>

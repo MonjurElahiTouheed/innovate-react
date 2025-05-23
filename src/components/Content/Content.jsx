@@ -11,7 +11,7 @@ const Content = () => {
         .then(data => setDatas(data))
     },[])
     return (
-        <section>
+        <section className='mt-0 md:mt-[336.15px]'>
             <Container>
                 <Flex className='flex-col md:flex-row justify-between px-7 md:px-[55px]'>
                     <h2 className='md:w-[540px] font-bold font-primary text-center md:text-left mt-16 md:mt-0 text-[33px] md:text-[46px] text-title'>How simple is it to use our platform?</h2>
